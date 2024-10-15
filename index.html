@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla de Productos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div id="app" class="p-4">
+    <div class="overflow-x-auto">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Producto</th>
+            <th>Piezas</th>
+            <th>P.U.</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody id="product-list">
+        </tbody>
+      </table>
+    </div>
+    <div class="flex">
+      <div class="card">
+        <p>Total Piezas</p>
+        <p id="total-piezas" class="text-2xl font-bold">0</p>
+      </div>
+      <div class="card">
+        <p>Total a Pagar</p>
+        <p id="total-general" class="text-2xl font-bold">$0.00</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
